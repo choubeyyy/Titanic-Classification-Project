@@ -30,7 +30,10 @@
 - `README.md`: This file, providing an overview of the project.
 
 ## Results
-📈 Key insights from the analysis:
+- Above we can see that 38% out of the training-set survived the Titanic.
+- We can also see that the passenger age range from 0.4 to 80 years old.
+- We can already detect some features that contain missing values, like the ‘Age’ feature (714 out of 891 total).
+- There's an outlier for the 'Fare' price because of the differences between the 75th percentile, standard deviation,     and the max value (512). We might want to drop that value.
 
 ## Future Improvements
 🔮 Future enhancements to this project can include:
